@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "108835531774",
+    "project_id": "kantkawtaw-cdfa7",
+    "storage_bucket": "kantkawtaw-cdfa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108835531774:android:f5e7ad2c60ff8cc1276eaf",
+        "android_client_info": {
+          "package_name": "kkt.humanrights.myanmar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108835531774-fkiguvb0dfedt721gfdnosf94lmm98b8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPO8fF4vibvbiCTROQmms5UOWlTrizVYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108835531774-fkiguvb0dfedt721gfdnosf94lmm98b8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
