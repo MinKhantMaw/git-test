@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\API\V1\VideoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,8 @@ use App\Http\Controllers\AdminController;
 |
 */
 
-Route::prefix('admin')->controller(AdminController::class)->group(function () {
-    Route::get('','index');
-});
+// Route::prefix('admin')->controller(AdminController::class)->group(function () {
+//     Route::get('','index');
+// });
+
+Route::get('', [VideoController::class, 'index']);
